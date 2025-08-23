@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/본인계정/jenkins-docker-test.git'
+                git 'https://github.com/wonil-infra/jenkins-aws-test.git'
             }
         }
         stage('Docker Build') {
